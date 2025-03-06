@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ethereal-155c4",
+          "appId": "1:801595423051:android:d7671afe32ca80741910ce",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "ethereal-155c4",
+          "appId": "1:801595423051:ios:52434f719b8472791910ce",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "ethereal-155c4",
+          "appId": "1:801595423051:ios:52434f719b8472791910ce",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ethereal-155c4",
+          "configurations": {
+            "android": "1:801595423051:android:d7671afe32ca80741910ce",
+            "ios": "1:801595423051:ios:52434f719b8472791910ce",
+            "macos": "1:801595423051:ios:52434f719b8472791910ce",
+            "web": "1:801595423051:web:d042ca84476709a91910ce",
+            "windows": "1:801595423051:web:dc5ffdbabb7e08fb1910ce"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
