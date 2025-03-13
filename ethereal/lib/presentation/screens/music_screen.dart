@@ -13,9 +13,7 @@ class MusicScreen extends StatefulWidget {
 
 class _MusicScreenState extends State<MusicScreen> {
   final YouTubeService _youtubeService = YouTubeService();
-  List<String> _videoUrls = [
-    'https://youtu.be/4rKeGsHa0lE?si=iXeVUI2_DmuCwDfd',
-  ];
+  List<String> _videoUrls = [];
   bool _isLoading = true;
 
   @override
