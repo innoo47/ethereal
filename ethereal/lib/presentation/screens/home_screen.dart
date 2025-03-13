@@ -1,4 +1,5 @@
 import 'package:ethereal/data/models/mood.dart';
+import 'package:ethereal/presentation/screens/music_screen.dart';
 import 'package:ethereal/presentation/widgets/mood_button.dart';
 import 'package:flutter/material.dart';
 
@@ -22,10 +23,22 @@ class HomeScreen extends StatelessWidget {
               Wrap(
                 spacing: 10,
                 runSpacing: 10,
-
                 children:
                     moods
-                        .map((mood) => MoodButton(mood: mood, onTap: () {}))
+                        .map(
+                          (mood) => MoodButton(
+                            mood: mood,
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder:
+                                      (context) => MusicScreen(mood: mood.name),
+                                ),
+                              );
+                            },
+                          ),
+                        )
                         .toList(),
               ),
             ],
