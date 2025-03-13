@@ -11,7 +11,28 @@ class MoodButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap,
-      child: Container(width: 50, height: 50, decoration: BoxDecoration()),
+      child: Container(
+        margin: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(20),
+        decoration: BoxDecoration(
+          color: Colors.blueAccent,
+          borderRadius: BorderRadius.circular(15),
+        ),
+        child: Column(
+          children: [
+            Text(mood.emoji, style: TextStyle(fontSize: 30)),
+            SizedBox(height: 10),
+            Text(
+              mood.name,
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
