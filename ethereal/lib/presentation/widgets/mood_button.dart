@@ -1,5 +1,5 @@
+import 'package:ethereal/domain/entities/mood.dart';
 import 'package:flutter/material.dart';
-import '../../data/models/mood.dart';
 
 class MoodButton extends StatelessWidget {
   final Mood mood;
