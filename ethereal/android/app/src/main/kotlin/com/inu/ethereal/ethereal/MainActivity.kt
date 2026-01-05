@@ -1,4 +1,4 @@
-package com.inu.ethereal.ethereal
+package com.inu.ethereal
 
 import io.flutter.embedding.android.FlutterActivity
 
