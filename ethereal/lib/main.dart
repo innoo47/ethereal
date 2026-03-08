@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ethereal/presentation/pages/main_page.dart';
 import 'package:flutter/services.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
 void main() {
   // 1. 플러터 엔진과 위젯 바인딩 초기화 (SystemChrome 사용 전 필수)

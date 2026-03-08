@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "275651609599",
+    "project_id": "ethereal-3739a",
+    "storage_bucket": "ethereal-3739a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275651609599:android:53796b6c4f51d461465dca",
+        "android_client_info": {
+          "package_name": "com.inu.ethereal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC0yNDFu1tD6Mp-lQSFUOFe7jZMRgRaJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,7 +8,7 @@
 PRODUCT_NAME = ethereal
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.inu.ethereal.ethereal
+PRODUCT_BUNDLE_IDENTIFIER = com.inu.ethereal
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2025 com.inu.ethereal. All rights reserved.

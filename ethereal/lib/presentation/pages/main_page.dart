@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:ethereal/presentation/widgets/bottom_nav.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -39,9 +37,12 @@ class _MainPageView extends StatelessWidget {
           bottomNavigationBar: bottomNavBar(
             context: context,
             child: BottomNavigationBar(
-              backgroundColor: Colors.transparent,  // 배경 투명
-              elevation: 0, // 그림자 제거
-              type: BottomNavigationBarType.fixed,  // 아이콘 움직임 고정
+              backgroundColor: Colors.transparent,
+              // 배경 투명
+              elevation: 0,
+              // 그림자 제거
+              type: BottomNavigationBarType.fixed,
+              // 아이콘 움직임 고정
               selectedItemColor: Colors.purpleAccent,
               unselectedItemColor: Colors.grey,
               showSelectedLabels: false,

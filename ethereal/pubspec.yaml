@@ -36,6 +36,7 @@ dependencies:
   lottie: ^3.1.3              # 로딩 애니메이션 (AI 분석 중일 때)
   animate_do: ^3.3.4          # 간편한 UI 등장 효과 (FadeIn, SlideUp)
   fluttertoast: ^8.2.10       # 간단한 알림 ("재생목록에 추가됨")
+  flutter_scroll_shadow: ^1.2.6 # 스크롤 그림자
 
   # 2. 상태 관리 & 아키텍처
   flutter_bloc: ^9.0.0        # 상태 관리 (가장 추천)
@@ -55,52 +56,17 @@ dependencies:
   # 5. 로컬 아이콘 (선택 사항)
   cupertino_icons: ^1.0.8
 
+  # 6. 데이터베이스 (Firebase Firestore)
+  firebase_core: ^4.4.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^6.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
   assets:
     - lib/config/assets/title_logo.png
-
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/to/resolution-aware-images
-
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/to/asset-from-package
-
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/to/font-from-package
+    - .env

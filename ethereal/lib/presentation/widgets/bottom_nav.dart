@@ -11,7 +11,7 @@ Widget bottomNavBar({required BottomNavigationBar child, required BuildContext c
         borderRadius: .circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.1),
+            color: Colors.black.withValues(alpha: 0.25),
             // spreadRadius: 2,
             blurRadius: 10,
             offset: Offset(0, 5),
